@@ -18,12 +18,14 @@ body {
 
 .white {
 	background-color: #ffffff;
+  	size: 5em;
 }
 
 .purple {
   background-image: url('https://cdn.discordapp.com/attachments/1064095109915877426/1081641521390030978/image.png');
 	background-color: #9b59b6;
 	color: #ffffff;
+  	size: 5em;
 }
 
 h1, h2 {
