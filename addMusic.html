@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/mage.png">
+  <title>GDMAGE</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <div class="page first-page">
+    <a href="index.html" class="amage"><img class="mage" alt="." src="img/mage.png"></a>
+    <h1 class="center">Добавить музыку</h1>
+  </div>
+  <div class="page">
+    <p>Можно вводить только прямые ссылки (.mp3) или из Dropbox - YouTube нельзя.</p>
+    <form action="https://mage.ps.fhgdps.com/tools/songAdd.php" method="post">
+      <input type="text" name="songlink" placeholder="Ссылка на .mp3 или на Dropbox."><br><br>
+      <input type="submit" value="Загрузить песню" class="button">
+      <a href="index.html" class="button">Отмена</a>
+    </form>
+  </div>
+</body>
