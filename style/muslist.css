@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+html, body { margin: 0; padding: 0; }
+* { font-family: 'Montserrat', sans-serif; }
+.first-page {
+    background:
+    linear-gradient(0deg, #fff 0%, #fff0 5%, #fff0 100%),
+    url('../img/imagebg.png');
+    background-size: 100%;
+    padding: 2em;
+    color: #fff;
+}
+.page {
+    padding: 2em;
+}
+.amage {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+.mage {
+    height: 5em;
+    transition: 0.5s;
+}
+
+.mage:hover {
+    height: 6em;
+    transition: 0.5s;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.white {
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.blue {
+    color: #2596ff;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s;
+}
+
+.blue:hover {
+    color: #3ba0ff;
+    font-size: 1.6em;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s;
+}
+
+.button {
+    background-color: #2596ff;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    transition: 0.5s;  
+}
+
+.button:hover {
+    background-color: #3ba0ff;
+    font-size: 1.55em;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    border-radius: 0.5em;
+    transition: 0.5s;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+input[type=text] {
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    width: 60%;
+    padding: 0.4em;
+}
+
+#info {
+    margin-left: 1em;
+}
+
+#infobig {
+    margin-left: 2em;
+}
